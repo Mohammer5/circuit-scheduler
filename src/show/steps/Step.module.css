@@ -1,0 +1,32 @@
+.step {
+  padding: 12px 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 106px;
+  grid-template-rows: 1fr;
+  width: 100%;
+}
+
+.data {
+  padding-right: 4px;
+}
+
+.step + .step {
+  border-top: 1px solid var(--color-primary);
+}
+
+.title {
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+.duration {
+  margin: 0;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,23 @@
+.titleContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.title {
+  margin: 0 4px 0 0;
+}
+
+.data {
+  display: flex;
+}
+
+.enabledLabel {
+  cursor: pointer;
+}
+
+.breakTime::before {
+  display: inline-block;
+  content: "|";
+  padding: 0 4px;
+}
